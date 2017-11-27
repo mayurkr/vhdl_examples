@@ -16,10 +16,10 @@ architecture mux_arc of mux_4x1 is
 			sel:=0;
 
 			if(s0="1") then sel:=sel+1;
-			end if
+			end if;
 
 			if(s1="1") then sel:=sel+2;
-			end if
+			end if;
 
 			case sel is
 				when 0 => y<=a;
@@ -27,9 +27,9 @@ architecture mux_arc of mux_4x1 is
 				when 2 => y<=c;
 				when 3 => y<=d;
 
-			end case
+			end case;
 		end process;
-end mux_arc
+end mux_arc;
 
 
 
