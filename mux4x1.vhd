@@ -2,11 +2,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity mux_4x1 is 
+entity mux4x1 is 
  	port(a,b,c,d,s0,s1: in std_logic;
  		 y: out std_logic);
 
-end mux_4x1;
+end mux4x1;
 
 architecture mux_arc of mux_4x1 is
 	begin
