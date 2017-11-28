@@ -27,7 +27,7 @@ entity bin2gray is
  	component bin2gray
  		port(b:in bit_vector(7 downto 0);
  			g:out bit_vector(7 downto 0));
- 	end component
+ 	end component;
 
  	begin
  	 i1:bin2gray port map(b,g);
